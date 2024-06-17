@@ -1,0 +1,125 @@
+{
+	"folders": [
+		{
+			"path": "."
+		}
+	],
+	"extensions": {
+		"recommendations": [
+			"vue.volar",
+			"lokalise.i18n-ally",
+			"thisismanta.stylus-supremacy",
+			"dbaeumer.vscode-eslint"
+		]
+	},
+	"settings": {
+		"editor.defaultFormatter": "dbaeumer.vscode-eslint",
+		"[typescript]": {
+			"editor.defaultFormatter": "dbaeumer.vscode-eslint"
+		},
+		"[vue]": {
+			"editor.defaultFormatter": "dbaeumer.vscode-eslint"
+		},
+		"[javascript]": {
+			"editor.defaultFormatter": "dbaeumer.vscode-eslint"
+		},
+		"[html]": {
+			"editor.defaultFormatter": "dbaeumer.vscode-eslint"
+		},
+		"[json]": {
+			"editor.defaultFormatter": "dbaeumer.vscode-eslint"
+		},
+		"[jsonc]": {
+			"editor.defaultFormatter": "dbaeumer.vscode-eslint"
+		},
+		"[yaml]": {
+			"editor.defaultFormatter": "dbaeumer.vscode-eslint"
+		},
+		"[yml]": {
+			"editor.defaultFormatter": "dbaeumer.vscode-eslint"
+		},
+		"[md]": {
+			"editor.defaultFormatter": "dbaeumer.vscode-eslint"
+		},
+		"eslint.format.enable": true,
+		"editor.insertSpaces": false,
+		"editor.formatOnPaste": false,
+		"i18n-ally.localesPaths": "./locales",
+		"i18n-ally.sourceLanguage": "en",
+		"i18n-ally.keystyle": "nested",
+		"i18n-ally.tabStyle": "tab",
+		"pugbeautify.tabSize": 4,
+		"pugbeautify.fillTab": false,
+		"typescript.format.enable": false,
+		"javascript.format.enable": false,
+		"json.format.enable": false,
+		"i18n-ally.extract.keyMaxLength": 60,
+		"i18n-ally.editor.preferEditor": true,
+		"files.exclude": {
+			"**/.git": true,
+			"**/.svn": true,
+			"**/.hg": true,
+			"**/CVS": true,
+			"**/.DS_Store": true,
+			"node_modules": true,
+		},
+		"search.exclude": {
+			"**/.git": true,
+			"**/.svn": true,
+			"**/.hg": true,
+			"**/CVS": true,
+			"**/.DS_Store": true,
+			"node_modules": true,
+			"dist": true,
+			"package-lock.json": true,
+		},
+		"cSpell.words": [
+			"Cpms",
+			"Helpdesk",
+			"iconify",
+			"nameof",
+			"Pinia",
+			"unplugin"
+		],
+
+		// Enable the ESlint flat config support
+		"eslint.useFlatConfig": true,
+
+		// Disable the default formatter, use eslint instead
+		"prettier.enable": false,
+		"editor.formatOnSave": false,
+
+		// Auto fix
+		"editor.codeActionsOnSave": {
+			"source.fixAll.eslint": "explicit",
+			"source.organizeImports": "never"
+		},
+
+		// Silent the stylistic rules in you IDE, but still auto fix them
+		"eslint.rules.customizations": [
+			{ "rule": "style/*", "severity": "off" },
+			{ "rule": "*-indent", "severity": "off" },
+			{ "rule": "*-spacing", "severity": "off" },
+			{ "rule": "*-spaces", "severity": "off" },
+			{ "rule": "*-order", "severity": "off" },
+			{ "rule": "*-dangle", "severity": "off" },
+			{ "rule": "*-newline", "severity": "off" },
+			{ "rule": "*quotes", "severity": "off" },
+			{ "rule": "*semi", "severity": "off" }
+		],
+
+		// Enable eslint for all supported languages
+		"eslint.validate": [
+			"javascript",
+			"javascriptreact",
+			"typescript",
+			"typescriptreact",
+			"vue",
+			"html",
+			"markdown",
+			"json",
+			"jsonc",
+			"yaml"
+		]
+	}
+}
